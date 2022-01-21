@@ -5,7 +5,5 @@
 | :exclamation: Important Note            |
 |-----------------------------------------|
 
-## Please fill in your project documentation in this README.md file 
-
 
 Adder verilog
