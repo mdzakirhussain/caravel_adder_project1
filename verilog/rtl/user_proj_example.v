@@ -74,9 +74,9 @@ module user_proj_example #(
     wire [`MPRJ_IO_PADS-1:0] io_oeb;
 
   adder4bit myadder(
-        .a(io_in[13:10])
-        .b(io_in[17:14])
-        .sum(io_out[21:18])
+      .a(io_in[13:10]),
+      .b(io_in[17:14]),
+      .sum(io_out[21:18]),
         .co(io_out[22:22])
     );
        
